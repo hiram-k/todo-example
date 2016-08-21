@@ -1,0 +1,25 @@
+{
+  "name": "todo-example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "compile": "tsc --project .",
+    "bundle": "browserify src/application.js -o webroot/application.js",
+    "build": "npm run compile && npm run bundle"
+  },
+  "author": "Eric Sartre",
+  "license": "MIT",
+  "devDependencies": {
+    "browserify": "^13.1.0",
+    "typescript": "^2.0.0",
+    "uglify-js": "^2.7.3"
+  },
+  "dependencies": {
+    "immutable": "^3.8.1",
+    "object-assign": "^4.1.0",
+    "promised-reducer": "^0.1.0",
+    "react": "^15.3.0",
+    "react-dom": "^15.3.0"
+  }
+}

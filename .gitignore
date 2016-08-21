@@ -1,0 +1,3 @@
+node_modules
+src/**/*.js
+webroot/application.js
